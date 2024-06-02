@@ -1,0 +1,46 @@
+#container {
+    margin-top: 2.7em;
+
+}
+
+#nav-bar-vertical {
+    margin-top: 20px;
+    background-color: white;
+    padding: 8px;
+}
+
+#nav-bar-vertical ul {
+    list-style: none;
+}
+
+#nav-bar-vertical li {
+    margin: 18px;
+}
+
+#nav-bar-vertical a {
+    color: black;
+    text-decoration: none;
+}
+
+#nav-bar-vertical a:hover {
+    font-size: 12px;
+    padding-left: 20px;
+    color: gray;
+    background: url(Img/marcador.png) no-repeat left;
+}
+
+.content-bar {
+    padding: 7px;
+    background: url(Img/fundo-caixa.png);
+    width: 26%;
+}
+
+.content-bar h2 {
+    background-color: rgb(41, 76, 113);
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: white;
+    padding: 7px 3px;
+    text-indent: 5px;
+}
+

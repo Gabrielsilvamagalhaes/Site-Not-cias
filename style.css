@@ -49,10 +49,9 @@ body {
 
 #top {
     background: url(Img/detalhe-topo.png) no-repeat right bottom;
-    height: 90%;
+    height: 100%;
 }
 
 #logo {
     margin-top: 20px ;
 }
-
