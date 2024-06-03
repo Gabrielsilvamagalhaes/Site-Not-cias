@@ -1,10 +1,9 @@
 #container {
-    margin-top: 2.7em;
+    margin-top: 3em;
 
 }
 
 #nav-bar-vertical {
-    margin-top: 20px;
     background-color: white;
     padding: 8px;
 }
@@ -30,9 +29,10 @@
 }
 
 .content-bar {
+    margin: 15px;
     padding: 7px;
     background: url(Img/fundo-caixa.png);
-    width: 26%;
+    float: left;
 }
 
 .content-bar h2 {
@@ -44,3 +44,30 @@
     text-indent: 5px;
 }
 
+.content-bar-right {
+    float: right !important;
+}
+
+.content-news {
+    padding: 7px;
+    background-color: white;
+    width: 280px;
+}
+
+.content-news img {
+    width: 100%;
+}
+
+.content-news h3 {
+    display: inline;
+    background-color: #FF0040;
+}
+
+.content-news p {
+    font-weight: 530;
+}
+
+.content-news a {
+    font-size: 18px;
+    color: #FF0040;
+}

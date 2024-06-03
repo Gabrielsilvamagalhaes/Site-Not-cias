@@ -11,13 +11,17 @@ body {
 
 #principal {
     margin: auto;
-    width: 700px;
-    height: 200px;
+    width: 906px;
+    height: 100%;
+}
+
+#nav-bar-horizontal {
+    position: absolute;
+    top: 20%;
 }
 
 #nav-bar-horizontal ul {
     list-style: none;
-    float: left;
 }
 
 #nav-bar-horizontal li {
@@ -26,10 +30,10 @@ body {
 
 #nav-bar-horizontal a {
     text-decoration: none;
-    padding: 15px 22px;
+    padding: 15px 2.4em;
     line-height: 1.2em;
     color: white;
-    background-color: #DF0101;
+    background: #DF0101;
     font-size: 15px;
 
 }
@@ -38,20 +42,23 @@ body {
     color: black;
 }
 
-#nav-bar-horizontal {
-    position: absolute;
-    top: 20%;
-}
-
 #home #nav-bar-horizontal .home a {
     background-color: #FA5858;
 }
 
 #top {
-    background: url(Img/detalhe-topo.png) no-repeat right bottom;
+    background: url(Img/detalhe-topo.png) no-repeat right top;
     height: 100%;
 }
 
 #logo {
     margin-top: 20px ;
+}
+
+#brazil-img {
+    float: right;
+}
+
+.clear {
+    clear: both;
 }
