@@ -28,12 +28,45 @@
     background: url(Img/marcador.png) no-repeat left;
 }
 
+.format-position {
+    position: relative;
+    bottom: 43px;
+}
+
 .content-bar {
-    margin: 15px;
+    margin: 13px;
     padding: 7px;
     background: url(Img/fundo-caixa.png);
     float: left;
 }
+
+.content-bar label {
+    display: block;
+    cursor: pointer;
+}
+
+.content-bar input[type="email"] {
+    display: block;
+    border: 0.5px transparent gray;
+    background: white;
+    padding: 5px;
+}
+
+.content-bar button {
+    border: none;
+    background-color: #FF0040;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    transition: opacity 0.3s;
+
+}
+
+.content-bar button:active {
+    opacity: 0.3;
+    background-color: #0056b3;
+}
+
 
 .content-bar h2 {
     background-color: rgb(41, 76, 113);
@@ -44,14 +77,25 @@
     text-indent: 5px;
 }
 
+
 .content-bar-right {
     float: right !important;
 }
 
 .content-news {
-    padding: 7px;
+    padding: 8px;
     background-color: white;
     width: 280px;
+}
+
+.content-news .small-img {
+    width: 32%;
+    min-width: 89px;
+    min-height: 59px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 8px;
+    margin-bottom: 10px;
 }
 
 .content-news img {
@@ -71,3 +115,15 @@
     font-size: 18px;
     color: #FF0040;
 }
+
+.content-news .small-transcript p, .content-news h4 {
+    font-size: 15px;
+    margin: 8px 5px;
+    margin-bottom: 8px;
+}
+
+.content-news h4 {
+    text-indent: 6px;
+    color: #01DFD7;
+}
+
